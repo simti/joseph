@@ -4,7 +4,8 @@ WORKDIR /app
 
 COPY package.json /app
 
-RUN yarn install && yarn cache clean
+RUN yarn install &&etyergdfgdfg 
+yarn cache clean
 
 COPY . /app
 
